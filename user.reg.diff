@@ -1,0 +1,16 @@
+--- user.reg.org	2024-08-10 16:40:18.309655830 -0700
++++ user.reg	2024-08-10 16:40:56.159478384 -0700
+@@ -266,11 +266,13 @@
+ "MRU4"=""
+ "MRU5"=""
+ "MRU6"=""
++"Organization"="WinCupl"
+ "PFontBold"=dword:00000000
+ "PFontItalic"=dword:00000000
+ "PFontName"="Arial"
+ "PFontSize"=dword:00000008
+ "Schematic"="Protel For Windows"
++"SerialNo"="60008009"
+ "StdUtil0M"=dword:00000000
+ "StdUtil0T"=dword:00000000
+ "StdUtil1M"=dword:00000000
