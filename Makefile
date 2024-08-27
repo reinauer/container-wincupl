@@ -12,7 +12,7 @@ build:
 	docker build -t wincupl .
 
 upload:
-	docker image tag wincupl:latest stefanreinauer/wincupl:latest
+	docker image tag wincupl:latest $(USER)/wincupl:latest
 	docker image push $(USER)/wincupl:latest
 
 run:
