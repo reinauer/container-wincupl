@@ -12,7 +12,8 @@ RUN sed -i'.bak' 's/$/ contrib/' /etc/apt/sources.list
 
 RUN apt-get -y update && \
     apt-get -y install curl unzip patch sudo ttf-mscorefonts-installer fontconfig && \
-    apt-get -y install wine winetricks wine32:i386
+    apt-get -y install wine winetricks wine32:i386 && \
+    apt-get -y install build-essential
 
 WORKDIR /wincupl
 
